@@ -79,7 +79,7 @@ export default function Home() {
             </div>
 
             {/* Color Theme Selector */}
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3 hidden ">
               <span className="text-sm opacity-70 font-semibold">اللون:</span>
               <div className="flex gap-2">
                 {colorThemes.map((theme, index) => (
